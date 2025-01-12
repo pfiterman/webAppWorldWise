@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "id": "940a",
+      "cityName": "Toronto",
+      "country": "Canada",
+      "emoji": "🇨🇦",
+      "date": "2024-03-19T17:28:14.001Z",
+      "notes": "",
+      "position": {
+        "lat": "43.65321752346015",
+        "lng": "-79.38446044921876"
+      }
+    },
+    {
+      "id": "2b2a",
+      "cityName": "Salvador",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2024-03-20T19:19:49.822Z",
+      "notes": "",
+      "position": {
+        "lat": "-12.98448543986479",
+        "lng": "-38.47137545132273"
+      }
+    },
+    {
+      "id": "ec57",
+      "cityName": "New York City",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-03-20T22:14:21.564Z",
+      "notes": "",
+      "position": {
+        "lat": "40.713955826286046",
+        "lng": "-73.97918701171876"
+      }
+    }
+  ]
+}
