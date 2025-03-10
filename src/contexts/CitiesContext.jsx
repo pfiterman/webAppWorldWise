@@ -140,8 +140,12 @@ function CitiesProvider({ children }) {
           "X-Master-Key": API_KEY,
         },
       });
-      const data = await res.json();
-      dispatch({ type: "city/created", payload: data });
+      const { record } = await res.json();
+      const { cities: newRecord } = record;
+      dispatch({
+        type: "city/created",
+        payload: newRecord[newRecord.length - 1],
+      });
     } catch {
       dispatch({
         type: "rejected",
